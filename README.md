@@ -1,7 +1,7 @@
 # Faker-Bundle-symfony2
  Faker is a PHP library that generates fake data for you
  
-# AppKarnel.php : Config[df1]
+# AppKarnel.php : Config 
 
  public function registerBundles()
     {
@@ -15,13 +15,13 @@
          return $bundles;
     }
     
-# Routing config: [df1]
+# Routing config:  
 
 faker:
     resource: "@FakerBundle/Resources/config/routing.yml"
     prefix:   /
     
-# How to use : [df1]
+# How to use :  
 
 Pour appeler le service de Faker library :
    
